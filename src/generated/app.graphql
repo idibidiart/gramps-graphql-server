@@ -5,6 +5,7 @@ type ComicAndTrivia {
 
 type Query {
   getComicAndTrivia: ComicAndTrivia
+  hello: String
 }
 
 """

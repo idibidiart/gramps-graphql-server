@@ -1,7 +1,8 @@
 # import XKCD_Comic, Numbers_Trivia from "./generated/gramps.graphql"
 
 type Query {
-  getComicAndTrivia: ComicAndTrivia
+  getComicAndTrivia: ComicAndTrivia,
+  hello: String
 }
 
 type ComicAndTrivia {
